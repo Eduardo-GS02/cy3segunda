@@ -1,0 +1,71 @@
+ .davi-container {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f2f6;
+  color: #000000;
+  padding: 20px 0;
+  min-height: 100vh;
+}
+
+.davi-container .header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 0 auto 25px auto;
+  max-width: 960px;
+  text-align: center;
+}
+
+.davi-container .content {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 960px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.davi-container .imagem {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto 25px auto;
+  border-radius: 12px;
+}
+
+.davi-container p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.davi-container .destaque { font-weight: bold; }
+
+.davi-container .galeria {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 35px 0;
+}
+
+.davi-container .fotoCanto {
+  width: 100%;
+  max-width: 440px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.davi-container .informacoes {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 5px solid #000000;
+}
+
+@media (max-width: 768px) {
+  .davi-container .header h1 { font-size: 1.5rem; }
+  .davi-container .fotoCanto { height: 250px; }
+}

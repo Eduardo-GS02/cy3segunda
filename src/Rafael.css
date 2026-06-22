@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+.header {
+  background: #00843d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+}
+
+/* Produtos */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  background-color: #eaeaea; /* Fundo extra enquanto carrega */
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #00843d;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.buy-btn {
+  width: 100%;
+  padding: 12px;
+  background: #00843d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buy-btn:hover {
+  background: #006b30;
+}
+
+/* Rodapé */
+.footer {
+  margin-top: 40px;
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
