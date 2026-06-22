@@ -8,7 +8,7 @@ function Gabrielg() {
     <div className="gabrielg-container">
       {/* Cabeçalho */}
       <header className='header'>
-        <h1 className='h1header'>O QUE ESPERAR DE GTA 6?</h1>
+        <h1 className='h1header'>O QUE ESPERAR DE GTA 6??</h1>
         <p className='pheader'>Explore as funcionalidades e mecânicas já confirmadas do novo capítulo da franquia</p>
       </header>
 
